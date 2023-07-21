@@ -39,4 +39,9 @@ body {
   position: absolute;
   /* the top edge of the line will be positioned in the middle. */
   top: 50%;
+  /* doing this, will change the origin of the hands*/
+  transform-origin: 100%;
+  /* since its a div, the arrow moves vertically, to make it move horizontally, we use rotate by 90 */
+  transform:rotate(90deg);
+  /* transition: all 0.5s ease-in; */
 }
